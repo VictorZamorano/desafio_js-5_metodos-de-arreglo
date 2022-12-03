@@ -5,9 +5,9 @@ const finish = document.getElementById("finish");
 let taskAdd = document.getElementById("taskAdd");
 
 const arrayTasks = [
-	{ id: 1, name: "Completar el desafio", finish: false },
-	{ id: 2, name: "Entender JS", finish: false },
-	{ id: 3, name: "No trabajar", finish: false },
+	{ id: 167013429862, name: "Completar el desafio", finish: false },
+	{ id: 165045829837, name: "Entender JS", finish: false },
+	{ id: 234010029823, name: "No trabajar", finish: false },
 ];
 
 const render = () => {
@@ -74,7 +74,7 @@ formulario.addEventListener("submit", (e) => {
 		return;
 	}
 	arrayTasks.push({
-		id: number,
+		id: Date.now(),
 		name: newTask.value,
 		finish: false,
 	});
