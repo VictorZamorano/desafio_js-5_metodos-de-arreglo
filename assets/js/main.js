@@ -57,7 +57,7 @@ render();
 function pintarTr(id, activo) {
 	let pintar = document.getElementById(id + "trBg");
 	pintar.style.backgroundColor =
-		activo == true ? "green" : "rgb(194, 194, 194)";
+		activo == true ? "green" : "rgb(209, 209, 209)";
 }
 
 function eliminar(id) {

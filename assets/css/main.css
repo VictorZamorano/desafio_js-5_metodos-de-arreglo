@@ -1,9 +1,10 @@
 .container {
 	width: 50%;
 	height: 25%;
-	background-color: rgb(194, 194, 194);
+	background-color: rgb(209, 209, 209);
 	padding-bottom: 10px;
 	margin-left: 20px;
+	border-radius: 10px;
 }
 
 main {
@@ -12,6 +13,21 @@ main {
 
 main input {
 	width: 80%;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid rgb(54, 1, 246);
+}
+main button {
+	color: white;
+	background-color: rgb(54, 1, 246);
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+}
+
+header h1 {
+	text-align: center;
+	padding: 10px;
 }
 
 .container-tareas {
@@ -32,4 +48,17 @@ th,
 td {
 	width: 400px;
 	text-align: center;
+}
+
+.check {
+	background-color: #fff;
+	width: 20px;
+	height: 20px;
+}
+
+.table-container button {
+	border: none;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
 }
